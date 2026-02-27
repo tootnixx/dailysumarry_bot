@@ -5,8 +5,8 @@ import os
 import time
 
 # Konfigurasi dari GitHub Secrets
-TELEGRAM_TOKEN = os.getenv('8401768404:AAHOplXh7IvbCePPt0DLuWwLG4YXt3kLEUI')
-CHAT_ID = os.getenv('8227706822')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+CHAT_ID = os.getenv('CHAT_ID')
 
 # Daftar Saham Gabungan (Bluechip + Aktif + Small Cap Potensial)
 watchlist = [
